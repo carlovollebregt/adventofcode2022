@@ -11,8 +11,8 @@ import java.util.stream.Stream;
 public class Day1 {
 
     public static void main(String[] args) {
-        System.out.println(executePartOne(StringFileReader.readInput("puzzles/day1/input.txt")));
-        System.out.println(executePartTwo(StringFileReader.readInput("puzzles/day1/input.txt")));
+        System.out.println(executePartOne(StringFileReader.readInputToList("puzzles/day1/input.txt")));
+        System.out.println(executePartTwo(StringFileReader.readInputToList("puzzles/day1/input.txt")));
     }
 
     public static int executePartOne(List<String> input) {

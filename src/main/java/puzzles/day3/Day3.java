@@ -7,8 +7,8 @@ import java.util.List;
 public class Day3 {
 
     public static void main(String[] args) {
-        System.out.println(solvePart1(StringFileReader.readInput("puzzles/day3/input.txt")));
-        System.out.println(solvePart2(StringFileReader.readInput("puzzles/day3/input.txt")));
+        System.out.println(solvePart1(StringFileReader.readInputToList("puzzles/day3/input.txt")));
+        System.out.println(solvePart2(StringFileReader.readInputToList("puzzles/day3/input.txt")));
     }
 
     protected static int solvePart1(List<String> inputs) {

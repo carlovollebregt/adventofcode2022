@@ -20,8 +20,8 @@ public class Day2 {
     );
 
     public static void main(String[] args) {
-        System.out.println(solvePart1(StringFileReader.readInput("puzzles/day2/input.txt")));
-        System.out.println(solvePart2(StringFileReader.readInput("puzzles/day2/input.txt")));
+        System.out.println(solvePart1(StringFileReader.readInputToList("puzzles/day2/input.txt")));
+        System.out.println(solvePart2(StringFileReader.readInputToList("puzzles/day2/input.txt")));
     }
 
     protected static int solvePart1(List<String> input) {
